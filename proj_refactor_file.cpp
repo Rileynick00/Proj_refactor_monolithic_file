@@ -8,8 +8,14 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include "../includes/utils.h"
+#include "../includes/fileio.h"
+#include "../includes/constants.h"
+
+
 //contains only main and neccesary includes
 int main() {
+
 	std::vector<process> myProcesses;
 
 	//assumme failure
