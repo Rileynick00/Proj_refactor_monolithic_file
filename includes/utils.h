@@ -6,13 +6,13 @@
 #include <vector>
 #include "constants.h"
 
-void sort(const SORT_ORDER &mySortOrder,std::vector<process> &myProcesses)
+void sort(const SORT_ORDER &mySortOrder,std::vector<process> &myProcesses); //this maybe
 
-process getNext(std::vector<process> &myProcesses)
+process getNext(std::vector<process> &myProcesses);
 
-int getSize(std::vector<process> &myProcesses)
+int getSize(std::vector<process> &myProcesses);
 
-int handleMissingData(std::vector<process> &myProcesses)
+int handleMissingData(std::vector<process> &myProcesses);
 
 #endif /* SORT_H_ */
 

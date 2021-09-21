@@ -12,7 +12,7 @@
 #include "../includes/fileio.h"
 #include "../includes/constants.h"
 
-
+using namespace std;
 //contains only main and neccesary includes
 int main() {
 

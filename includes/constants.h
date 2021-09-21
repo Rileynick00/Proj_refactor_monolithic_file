@@ -1,10 +1,12 @@
 //contains all constants, the enum, and struct and all neccesary includes
-#include <iostream>
+#ifndef LOAD_H_CON
+#define LOAD_H_CON
+
 #include <string>
-#include <vector>
-#include "../includes/fileio.h"
-#include "../includes/utils.h"
+
 //default files to read and write data
+
+//add include guards
 const std::string SOURCE_FILE 	= "source_file.txt";
 const std::string RESULTS_FILE 	= "results_file.txt";
 
@@ -22,3 +24,4 @@ enum SORT_ORDER { PROCESS_NUMBER, CPU_TIME, START_TIME };
 struct process{	int process_number=UNINITIALIZED;
 				int cpu_time=UNINITIALIZED;
 				int start_time=UNINITIALIZED;};
+#endif 
